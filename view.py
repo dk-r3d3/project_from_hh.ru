@@ -65,5 +65,3 @@ def get_csv_vacancy(city, key_word):
             file = open('res.csv', 'a', encoding='utf-8-sig', newline='')
             writer.writerow(flatten)
     file.close()
-
-
